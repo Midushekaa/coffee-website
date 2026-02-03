@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Cozy Cup Coffee</title>
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" />
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet" />
+
+  <!-- Remix Icons -->
+  <link href="https://cdn.jsdelivr.net/npm/remixicon@4.0.0/fonts/remixicon.css" rel="stylesheet" />
+
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg navbar-light bg-white shadow-sm py-3">
+  <div class="container">
+    <a class="navbar-brand fw-bold" href="#">Cozy<span>Cup</span></a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+      <ul class="navbar-nav me-3">
+        <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+        <li class="nav-item"><a class="nav-link" href="#menu">Menu</a></li>
+        <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+        <li class="nav-item"><a class="nav-link" href="#order">Order</a></li>
+        <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+      </ul>
+      <div class="d-flex gap-2">
+        <button class="btn btn-outline-dark rounded-circle"><i class="ri-shopping-cart-line"></i></button>
+        <button class="btn btn-outline-dark rounded-circle"><i class="ri-notification-3-fill"></i></button>
+      </div>
+    </div>
+  </div>
+</nav>
+
+<!-- Header -->
+<header id="home" class="py-5">
+  <div class="container">
+    <div class="row align-items-center gy-4">
+      <div class="col-md-6 text-center text-md-start">
+        <h1 class="fw-bold mb-3">Welcome to Cozy Cup Coffee</h1>
+        <p class="lead">Warm your day with every sip. Experience handcrafted coffee blends made just for you!</p>
+        <a href="#order" class="btn btn-custom btn-lg mt-3">Order Now</a>
+      </div>
+      <div class="col-md-6 text-center">
+        <img src="coffee-banners.jpg" alt="Coffee Cup" class="img-fluid rounded-circle shadow" style="max-width: 300px; width: 100%;" />
+      </div>
+    </div>
+  </div>
+</header>
+
+<!-- Menu Section -->
+<section id="menu" class="py-5">
+  <div class="container">
+    <h2 class="text-center mb-4">Our Coffee Menu</h2>
+    <div class="row g-4">
+      <div class="col-md-4 col-lg-3">
+        <div class="card h-100">
+          <img src="espresso.jpg" class="card-img-top" alt="Espresso" />
+          <div class="card-body text-center">
+            <h5 class="card-title">Espresso</h5>
+            <p class="card-text">Rs.350</p>
+            <button class="btn btn-custom">Buy Now</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-4 col-lg-3">
+        <div class="card h-100">
+          <img src="cappuccino.jpg" class="card-img-top" alt="Cappuccino" />
+          <div class="card-body text-center">
+            <h5 class="card-title">Cappuccino</h5>
+            <p class="card-text">Rs.450</p>
+            <button class="btn btn-custom">Buy Now</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-4 col-lg-3">
+        <div class="card h-100">
+          <img src="latte.jpg" class="card-img-top" alt="Latte" />
+          <div class="card-body text-center">
+            <h5 class="card-title">Latte</h5>
+            <p class="card-text">Rs.480</p>
+            <button class="btn btn-custom">Buy Now</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-4 col-lg-3">
+        <div class="card h-100">
+          <img src="mocha.jpg" class="card-img-top" alt="Mocha" />
+          <div class="card-body text-center">
+            <h5 class="card-title">Mocha</h5>
+            <p class="card-text">Rs.520</p>
+            <button class="btn btn-custom">Buy Now</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-4 col-lg-3">
+        <div class="card h-100">
+          <img src="americano.jpg" class="card-img-top" alt="Americano" />
+          <div class="card-body text-center">
+            <h5 class="card-title">Americano</h5>
+            <p class="card-text">Rs.400</p>
+            <button class="btn btn-custom">Buy Now</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-4 col-lg-3">
+        <div class="card h-100">
+          <img src="flatwhite.jpg" class="card-img-top" alt="Flat White" />
+          <div class="card-body text-center">
+            <h5 class="card-title">Flat White</h5>
+            <p class="card-text">Rs.470</p>
+            <button class="btn btn-custom">Buy Now</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-4 col-lg-3">
+        <div class="card h-100">
+          <img src="macchiato.jpg" class="card-img-top" alt="Macchiato" />
+          <div class="card-body text-center">
+            <h5 class="card-title">Macchiato</h5>
+            <p class="card-text">Rs.430</p>
+            <button class="btn btn-custom">Buy Now</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-4 col-lg-3">
+        <div class="card h-100">
+          <img src="cortado.jpg" class="card-img-top" alt="Cortado" />
+          <div class="card-body text-center">
+            <h5 class="card-title">Cortado</h5>
+            <p class="card-text">Rs.420</p>
+            <button class="btn btn-custom">Buy Now</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-4 col-lg-3">
+        <div class="card h-100">
+          <img src="affogato.jpg" class="card-img-top" alt="Affogato" />
+          <div class="card-body text-center">
+            <h5 class="card-title">Affogato</h5>
+            <p class="card-text">Rs.550</p>
+            <button class="btn btn-custom">Buy Now</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-4 col-lg-3">
+        <div class="card h-100">
+          <img src="irishcoffee.jpg" class="card-img-top" alt="Irish Coffee" />
+          <div class="card-body text-center">
+            <h5 class="card-title">Irish Coffee</h5>
+            <p class="card-text">Rs.600</p>
+            <button class="btn btn-custom">Buy Now</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-4 col-lg-3">
+        <div class="card h-100">
+          <img src="viennese.jpg" class="card-img-top" alt="Viennese Coffee" />
+          <div class="card-body text-center">
+            <h5 class="card-title">Viennese Coffee</h5>
+            <p class="card-text">Rs.510</p>
+            <button class="btn btn-custom">Buy Now</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-4 col-lg-3">
+        <div class="card h-100">
+          <img src="redeye.jpg" class="card-img-top" alt="Red Eye" />
+          <div class="card-body text-center">
+            <h5 class="card-title">Red Eye</h5>
+            <p class="card-text">Rs.460</p>
+            <button class="btn btn-custom">Buy Now</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-4 col-lg-3">
+        <div class="card h-100">
+          <img src="blackcoffee.jpg" class="card-img-top" alt="Black Coffee" />
+          <div class="card-body text-center">
+            <h5 class="card-title">Black Coffee</h5>
+            <p class="card-text">Rs.320</p>
+            <button class="btn btn-custom">Buy Now</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-4 col-lg-3">
+        <div class="card h-100">
+          <img src="dalgona.jpg" class="card-img-top" alt="Dalgona Coffee" />
+          <div class="card-body text-center">
+            <h5 class="card-title">Dalgona Coffee</h5>
+            <p class="card-text">Rs.540</p>
+            <button class="btn btn-custom">Buy Now</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-4 col-lg-3">
+        <div class="card h-100">
+          <img src="icedcoffees.jpg" class="card-img-top" alt="Iced Coffee" />
+          <div class="card-body text-center">
+            <h5 class="card-title">Iced Coffee</h5>
+            <p class="card-text">Rs.480</p>
+            <button class="btn btn-custom">Buy Now</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-4 col-lg-3">
+  <div class="card h-100">
+    <img src="turkishcoffee.jpg" class="card-img-top" alt="Turkish Coffee" />
+    <div class="card-body text-center">
+      <h5 class="card-title">Turkish Coffee</h5>
+      <p class="card-text">Rs.500</p>
+      <button class="btn btn-custom">Buy Now</button>
+    </div>
+  </div>
+</div>
+
+
+    </div>
+  </div>
+</section>
+
+
+<!-- About Section -->
+<section id="about" class="bg-light py-5">
+  <div class="container">
+    <div class="row align-items-center gy-4">
+      <div class="col-md-6 text-center text-md-start">
+        <h2>About Cozy Cup</h2>
+        <p class="lead">
+          At Cozy Cup, we serve passion in every cup. From the finest Arabica beans to expertly crafted recipes, we deliver the perfect coffee experience for all lovers of the brew.
+        </p>
+      </div>
+      <div class="col-md-6 text-center">
+        <img src="coffee-bannerr.jpg" alt="About Cozy Cup" class="img-fluid rounded shadow" style="max-width: 300px; width: 100%;" />
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Order Form -->
+<section id="order">
+  <div class="container">
+    <h2 class="text-center mb-4">Place Your Order</h2>
+    <form class="row g-4" id="orderForm">
+      <div class="col-md-6">
+        <label class="form-label">Your Name</label>
+        <input type="text" class="form-control" required />
+      </div>
+      <div class="col-md-6">
+        <label class="form-label">Phone Number</label>
+        <input type="tel" class="form-control" required />
+      </div>
+      <div class="col-12">
+        <label class="form-label">Choose Your Coffee</label>
+        <select class="form-select" required>
+          <option selected disabled>Choose...</option>
+          <option>Espresso - Rs.350</option>
+          <option>Cappuccino - Rs.450</option>
+          <!-- Add rest... -->
+        </select>
+      </div>
+      <div class="col-12">
+        <label class="form-label">Additional Notes</label>
+        <textarea class="form-control" rows="3" placeholder="Anything else you'd like us to know?"></textarea>
+      </div>
+      <div class="col-12 text-center">
+        <button type="submit" class="btn btn-custom btn-lg px-5">Submit Order</button>
+      </div>
+    </form>
+  </div>
+</section>
+
+<!-- Contact Section -->
+<section id="contact" class="bg-light">
+  <div class="container text-center">
+    <h2>Contact Us</h2>
+    <p class="mb-4">Questions? Get in touch!</p>
+    <p><i class="ri-mail-line"></i> info@cozycupcoffee.com</p>
+    <p><i class="ri-phone-line"></i> +94 77 987 6543</p>
+    <p><i class="ri-map-pin-line"></i> 456 Coffee Lane, Colombo, Sri Lanka</p>
+  </div>
+</section>
+
+<!-- Footer -->
+<footer class="text-center py-3">
+  &copy; 2025 Cozy Cup Coffee. All rights reserved.
+</footer>
+
+<!-- Bootstrap JS -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+<!-- Custom Script -->
+<script src="script.js"></script>
+</body>
+</html>
